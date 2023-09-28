@@ -4,7 +4,10 @@
   height: auto;
   width: 100%;
   margin-bottom: 30px;
-  margin-left: 20px;
+  /* margin-top: 90px; */
+  padding-top: 90px;
+  
+
 
 }
 
@@ -40,11 +43,20 @@
   padding-left: 20px;
   font-size: 15px;
 }
-.Add{
-    height: 40px;
-    width: 70px;
-    background-color: rgb(49, 49, 241);
-    border: none;
-    color: white;
-    border-radius: 5px;
+.Add {
+  height: 40px;
+  width: 70px;
+  background-color: rgb(8, 98, 241);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.Add:hover:active {
+  background-color: rgb(98, 98, 249);
+  cursor: pointer;
+}
+body{
+  height: 3000px;
+  
+
 }

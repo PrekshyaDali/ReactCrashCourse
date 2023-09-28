@@ -1,0 +1,64 @@
+.listdiv {
+  height: 80px;
+  border: none;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  
+ 
+
+} 
+.nameandemaildiv{
+  padding-left: 10px;
+}
+.profileimg{
+  height: 30px;
+
+  
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+ 
+  
+}
+.email {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a6a6;
+}
+
+.deleteicon {
+  height: 20px;
+  cursor: pointer;
+
+
+}
+
+.deletediv{
+    height: 40px;
+    width: 40px;
+    background-color: #d4d4d4;
+    border-width: 1px;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    bottom: 10px;
+  
+   
+
+}
+.deletediv:hover{
+    background-color: rgb(228, 212, 212);
+    cursor: pointer;
+}
+.deletediv:active{
+    background-color: #d4d4d4;
+    cursor: pointer;
+}
