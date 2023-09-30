@@ -2,10 +2,9 @@ import React from "react";
 import classes from "./ContactList.module.css";
 
 function ContactCard(props) {
-  const { id, name, email } = props.item;
+  const { name, email } = props.item;
   return (
     <>
-    <li key={id}>
       <div className={classes.listdiv}>
         <img className={classes.profileimg} src="profile.png" />
         <div className={classes.nameandemaildiv}>
@@ -17,7 +16,6 @@ function ContactCard(props) {
           <img className={classes.deleteicon} src="DeleteIcon.png" />
         </div>
       </div>
-    </li>
     </>
   );
 }

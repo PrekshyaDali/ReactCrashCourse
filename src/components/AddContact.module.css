@@ -52,11 +52,10 @@
   border-radius: 5px;
 }
 .Add:hover:active {
-  background-color: rgb(98, 98, 249);
+  background-color: rgb(8, 98, 241);
   cursor: pointer;
 }
-body{
-  height: 3000px;
-  
-
+.Add:hover {
+  background-color: rgb(98, 98, 249);
+  cursor: pointer;
 }

@@ -4,10 +4,8 @@ import React from "react";
 import ContactCard from "./ContactCard";
 
 function ContactList(props) {
-  const renderContactList = props.contact.map((item) => {
-    return (
-    <ContactCard item = {item}></ContactCard>
-    );
+  const renderContactList = props.contacts.map((item) => {
+    return <ContactCard key={item.name} item={item}></ContactCard>;
   });
   return <div className={classes.item}>{renderContactList}</div>;
 }
