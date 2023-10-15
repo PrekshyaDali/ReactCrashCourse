@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./ContactList.module.css";
 
 function ContactCard(props) {
-  const { name, email } = props.item;
+  const {id, name, email } = props.item;
   return (
     <>
       <div className={classes.listdiv}>
@@ -13,7 +13,7 @@ function ContactCard(props) {
         </div>
 
         <div className={classes.deletediv}>
-          <img className={classes.deleteicon} src="DeleteIcon.png" />
+          <img onClick={()=>{props.clickHandler(id)}} className={classes.deleteicon} src="DeleteIcon.png" />
         </div>
       </div>
     </>

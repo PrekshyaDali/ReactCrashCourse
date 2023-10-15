@@ -62,3 +62,30 @@
     background-color: #d4d4d4;
     cursor: pointer;
 }
+.AddButton {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(43, 43, 231);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+.AddButton:hover{
+  background-color: rgb(65, 85, 238);
+}
+.AddButton:active{
+  background-color: rgb(43, 43, 231);
+}
+
+.addcontactdiv {
+  display: inline-block; /* Change display to inline-block */
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  cursor: pointer;
+ 
+}
+
